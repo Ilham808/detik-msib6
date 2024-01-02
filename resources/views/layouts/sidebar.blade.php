@@ -7,7 +7,7 @@
             <a href="dashboard.html"><i class="fas fa-home"></i>Manage Book</a>
         </li>
         <li>
-            <a href="forms.html"><i class="fas fa-file-alt"></i>Category Book</a>
+            <a href="{{ route('categorybooks.index') }}"><i class="fas fa-file-alt"></i>Category Book</a>
         </li>
     </ul>
 </nav>

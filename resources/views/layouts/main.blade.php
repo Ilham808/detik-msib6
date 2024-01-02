@@ -23,9 +23,7 @@
             <!-- end of navbar navigation -->
             <div class="content">
                 <div class="container-fluid">
-                    <div class="page-title">
-                        <h3>Blank Page</h3>
-                    </div>
+                    @yield('content')
                 </div>
             </div>
         </div>
